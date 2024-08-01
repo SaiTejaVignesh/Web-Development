@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel = "icon" href = "https://mailmeteor.com/logos/assets/PNG/Google_Forms_Logo_512px.png">
+</head>
+<body>
+    <div align = "center">
+<form>
+      <table border="3" cellpadding = "8" cellspacing = "2" style="font-family: sans-serif; background-image:linear-gradient(rgb(118, 206, 236), rgb(164, 218, 164));">
+          <tr>
+            <th colspan="2">Registration form</th>
+          </tr>
+          
+                <tr>
+            <th><label for = "first">Enter Your First Name</label></th>
+            <td><input type = "text" placeholder="Enter Your First Name" name = "firstname" id = "first" size = "20" required></td>
+          </tr>
+        
+          <tr>
+            <th><label for = "last">Enter Your Last Name</label></th>
+            <td><input type = "text" placeholder="Enter Your Last Name" name = "lastname" id = "last" size = "20" required></td>
+          </tr>
+        
+          <tr>
+            <th><label for = "p">Enter Your Password</label></th>
+            <td><input type = "password" placeholder="Enter Your Password" name="password" id = "p" size = "20" required></td>
+          </tr>
+        
+          <tr>
+            <th><label for = "rp">Re-Enter Your Password</label></th>
+            <td><input type = "password" placeholder="Re-Enter Your Password" name="repassword" id = "rp" size = "20" required></td>    
+          </tr>
+        
+          <tr>
+            <th><label for = "e">Enter Your Email</label></th>
+            <td><input type = "email" placeholder="Enter Your Email" name = "email" id = "e" size = "20" readonly></td>
+          </tr>
+        
+          <tr>
+            <th><label for = "m">Enter Your Mobile <br> Number</label></th>
+            <td><input type = "tel" placeholder="Enter Your Mobile Number" name = "mobile" id = "m" size = "20"></td>
+          </tr>
+        
+          <tr>
+            <th><label for = "a">Enter Your Address</label></th>
+            <td><textarea rows = "10" cols="40" id = "a"></textarea></td>    
+          </tr>
+        
+          <tr>
+            <th><label>Gender</label></th>
+            <td>
+                <label for = "m">Male</label>
+                <input type = "radio" name = "gender" value = "m" id = "m">
+                <label for = "f">Female</label>
+                <input type = "radio" name = "gender" value = "f" id = "f">
+            </td>
+          </tr>
+        
+          <tr>
+            <th><label>Select Your Hobbies</label></th>
+            <td>
+              <label for = "h1">Movies</label>
+              <input type = "checkbox" name = "hobbies" value = "h1" id = "h1">
+              <label for = "h2">Esport Games</label>
+              <input type = "checkbox" name = "hobbies" value = "h2" id = "h2">
+              <label for = "h3">Browsing Net</label>
+              <input type = "checkbox" name = "hobbies" value = "h3" id = "h3">
+            </td>
+          </tr>
+        
+          <tr>
+            <th><label>Select Your DOB</label></th>
+            <td><input type = "date" name = "date"></td>
+          </tr>
+        
+          <tr>
+            <th>Select Your Country</th>
+            <td>
+              <select name = "Country">
+                <option>Select Your Country</option>
+                <option value="United States">United States</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+                <option value="India">India</option>
+                <option value="United Kingdom">United Kingdom</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Select Your State</th>
+            <td>
+              <select name="State">
+                <option>Select Your State</option>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <option>Assam</option>
+                <option>Goa</option>
+              </select>
+            </td>
+          </tr>
+        
+          <tr>
+            <th>Upload Your Image</th>
+              <td><input type="file" name = "upload"></td>
+          </tr>
+        
+        <tr align="center">
+          <td colspan="2">
+            <button>Save My Data</button>
+            <button>Reset Data</button>
+          </td>
+        </tr> 
+        </table>
+        </form>
+       </div> 
+       <a href = "./html.html"><button style = "border-radius: 12px; height:25px; width:100px; background-color:rgb(208, 114, 26); border-color:black; border-style:solid; position: absolute;right:15%;
+        font-weight: bold; font-size: 15px;">Home Page</button></a>
+       <a href = "./tables.html"><button style = "border-radius: 12px; height:25px; width:100px; background-color:rgb(208, 114, 26); border-color:black; border-style:solid; position: absolute;right:8%;
+        font-weight: bold; font-size: 15px;">Back</button></a>
+       <a href = "./media.html" target="_blank"><button style = "border-radius: 12px; height:25px; width:100px; background-color:rgb(208, 114, 26); border-color:black; border-style:solid; position: absolute;right:1%;
+        font-weight: bold; font-size: 15px;">Next</button></a>   
+</body>
+</html>
